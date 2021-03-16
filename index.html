@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Venom 2 - Movie Landing Page</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo"><img src="./assets/logo.png"></a>
+        <div class="toggle"><img src="./assets/toggle.png"></div>
+    </header>
+
+    <div class="banner">
+        <div class="content">
+            <h2>Que Haja <span>Carnificina!</span></h2>
+            <p>Em Venom - Tempo de Carnificina, o relacionamento entre Eddie e Venom (Tom Hardy) está evoluindo.
+                Buscando a melhor forma de lidar com a inevitável simbiose, esse dois lados descobrem como viver juntos
+                e, de alguma forma, se tornarem melhores juntos do que separados.</p>
+            <a href="#" class="play" onclick="toggle();"><img src="./assets/play.png">Assista o Trailer</a>
+            <a href="#" class="buy">Reservar Agora</a>
+
+            <div class="slide"></div>
+
+            <ul class="socialMedia">
+                <li> <a href="#"><img src="./assets/facebook.png"></a></li>
+                <li> <a href="#"><img src="./assets/twitter.png"></a></li>
+                <li> <a href="#"><img src="./assets/instagram.png"></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="trailer">
+        <video src="./assets/trailer.mp4" controls="true"></video>
+        <img src="./assets/close.png" onclick="toggle();" class="close">
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
